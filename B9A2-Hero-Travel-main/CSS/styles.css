@@ -274,3 +274,108 @@ main{
   grid-column: 2/4;
 }
 
+
+
+.tour-card3{
+    background-image: url(/B9A2-Hero-Travel-main/Images/Group\ 39.png);
+    background-repeat: no-repeat;
+    
+}
+.tour-card1{
+    background-image: url(/B9A2-Hero-Travel-main/Images/Group\ 40.png);
+    background-repeat: no-repeat;
+}
+.tour-card2{
+    background-image: url(/B9A2-Hero-Travel-main/Images/Group\ 39.png);
+    
+    background-repeat: no-repeat;
+}
+.tour-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-top: 50px;
+    gap: 20px;
+    width: 100%;
+    max-width: 900px;
+
+
+}
+.tour-card {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    overflow: hidden;
+    height: 350px;
+    display: flex;
+    align-items: flex-start;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.tour-info {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    width: calc(100% - 40px);
+    max-width: 350px;
+    height: 250px;
+    position: relative;
+    
+}
+.info1{
+    position: relative;
+    left: 420px;
+}
+.tour-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 15px;
+    color: #555;
+    margin-bottom: 15px;
+}
+.tour-price {
+    font-size: 1rem;
+    color: #ff6347;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.book-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+.book-btn:hover {
+    background-color: #e5533d;
+}
+h3{
+    font-size: 1.8rem;
+    color: #333;
+}
+.btn-pro{
+    height: 50px;
+    width: 25vh;
+    
+
+}
+.btn-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
